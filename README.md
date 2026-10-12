@@ -103,64 +103,42 @@ El script genera automáticamente un documento corporativo listo para impresión
 ├── 📜 requirements.txt
 └── 📘 README.md
 
-▶️ Instalación y Ejecución
+▶️ Ejecución
 1️⃣ Crear entorno virtual
-Bash
 python -m venv .venv
 2️⃣ Activar entorno virtual
-Windows (PowerShell):
-
-PowerShell
-.venv\Scripts\Activate.ps1
-Windows (CMD):
-
-DOS
-.venv\Scripts\activate.bat
-Linux / macOS:
-
-Bash
+🪟 Windows
+.venv\Scripts\activate
+🐧 Linux / 🍎 macOS
 source .venv/bin/activate
 3️⃣ Instalar dependencias
-Bash
 pip install -r requirements.txt
-Contenido de requirements.txt:
-
-Plaintext
-pandas>=2.0.0
-numpy>=1.24.0
-matplotlib>=3.7.0
-4️⃣ Ejecutar la Suite Analítica
-Bash
+4️⃣ Ejecutar el proyecto
 python ml_analisis.py
 📁 Salidas Generadas
-Al finalizar el proceso, se crearán de manera automática:
+Al finalizar el proceso se crearán automáticamente:
 
-reporte_1_bi_ejecutivo.png (Dashboard Financiero 16:9)
+✅ Dashboard Ejecutivo #1
+✅ Dashboard Ejecutivo #2
+✅ Dashboard Ejecutivo #3
+✅ Dashboard Ejecutivo #4
+✅ Dossier Ejecutivo PDF
+💡 Caso de Uso
+Este proyecto demuestra cómo una organización puede evolucionar desde simples reportes operativos hacia una plataforma de análisis estratégico capaz de respaldar decisiones de nivel:
 
-reporte_2_ml_ejecutivo.png (Dashboard Machine Learning 16:9)
-
-reporte_3_bi_moderno.png (Dashboard BI Moderno 16:9)
-
-reporte_4_ml_econometria.png (Dashboard Econometría 16:9)
-
-Dossier_Ejecutivo_BI_ML_Completo.pdf (Informe Ejecutivo Consolidado de 10 páginas)
-
-💡 Casos de Uso y Audiencia
-Diseñado para respaldar la toma de decisiones basada en datos para:
-
-👨‍💼 CEO / Dirección General: Supervisión integral de rentabilidad, balance regional y posicionamiento comercial.
-
-💰 CFO / Dirección de Finanzas: Control de retención neta, auditoría de fugas por descuentos y proyecciones de estrés (P10/P50/P90).
-
-📈 COO / Dirección de Operaciones: Diagnóstico de costos de flete, logística y rendimiento por canal de distribución.
-
-🏢 Dirección Comercial: Fijación de topes estrictos de descuento y programas de lealtad para clientes de gran volumen.
-
-📊 Equipos de Data Science y BI: Plantilla reproducible de código limpio sin dependencias propietarias complejas.
-
+👨‍💼 CEO
+💰 CFO
+📈 COO
+🏢 Directores de Negocio
+📊 Equipos de BI y Data Analytics
 🚀 Conclusión
-Los datos por sí solos no generan valor. El verdadero valor surge cuando se transforman en conocimiento, contexto y decisiones estratégicas cuantitativas.
+Los datos por sí solos no generan valor.
 
-Esta suite demuestra cómo integrar Business Intelligence, Machine Learning, Analítica Financiera y Automatización Documental para transformar registros transaccionales en una ventaja competitiva sostenible.
+El verdadero valor surge cuando se transforman en conocimiento, contexto y decisiones estratégicas.
+
+Esta solución demuestra cómo combinar Business Intelligence, Machine Learning, Analítica Financiera y Automatización Documental para convertir información transaccional en una ventaja competitiva sostenible.
 
 ⭐ Si este proyecto te resulta útil, considera darle una estrella al repositorio.
+
+📢 Tecnologías y Temáticas
+Python DataScience MachineLearning BusinessIntelligence Analytics DataAnalytics BI ArtificialIntelligence ExecutiveReporting DataEngineering
