@@ -1,144 +1,236 @@
 # 🚀 BI & Machine Learning Executive Suite
+
 ### 📊 De Datos Crudos a Decisiones Ejecutivas
 
-Suite analítica integral desarrollada en Python para transformar registros transaccionales masivos en inteligencia estratégica mediante **Business Intelligence**, **Modelado Financiero**, **Machine Learning nativo** y **Generación Automatizada de Reportes Ejecutivos en PDF**.
+Suite analítica integral desarrollada en Python para transformar registros transaccionales masivos en inteligencia estratégica mediante **Business Intelligence, modelado financiero, Machine Learning y generación automatizada de reportes ejecutivos en PDF**.
 
 ---
 
 ## 🎯 Objetivo del Proyecto
 
-Construir una solución empresarial integral, reproducible y de nivel directivo (C-Suite) capaz de:
+Construir una solución empresarial integral, reproducible y orientada a la alta dirección (*C-Suite*), capaz de:
 
-* ✅ **Consolidar y estructurar** datos transaccionales multianuales.
-* ✅ **Calcular KPIs financieros y comerciales** clave (Margen Operativo, AOV, EBITDA, Cuotas).
-* ✅ **Aplicar modelos predictivos y de Machine Learning** (Forecast OLS, Clustering K-Means, Clasificación Logística, Detección de Fugas).
-* ✅ **Detectar patrones, anomalías y oportunidades** de optimización de precios y cartera.
-* ✅ **Generar 4 dashboards panorámicos de alta resolución (16:9)** con narrativa de negocio integrada.
-* ✅ **Automatizar la creación de un dossier ejecutivo en PDF de 10 páginas** con análisis individualizado y matriz de decisiones.
+- ✅ **Consolidar y estructurar** datos transaccionales multianuales.
+- ✅ **Calcular KPIs financieros y comerciales** clave: margen operativo, AOV, EBITDA y cuotas.
+- ✅ **Aplicar modelos predictivos y de Machine Learning:** Forecast OLS, Clustering K-Means, clasificación logística y detección de fugas.
+- ✅ **Detectar patrones, anomalías y oportunidades** de optimización de precios y cartera.
+- ✅ **Generar cuatro dashboards panorámicos** de alta resolución (16:9), con narrativa de negocio integrada.
+- ✅ **Automatizar un dossier ejecutivo de 10 páginas en PDF**, con análisis individualizado y matriz de decisiones.
 
 ---
 
 ## 🖼️ Dashboards Incluidos
 
 ### 📈 Dashboard #1: Diagnóstico Financiero y Comercial
-* **Tendencia de Ventas vs. Metas:** Evolución mensual con áreas sombreadas de superávit y déficit presupuestario.
-* **Cascada de Rentabilidad:** Deconstrucción del Ingreso Bruto restando descuentos, costo de ventas y gastos operativos.
-* **Análisis por Canal:** Volumen de facturación, porcentaje de margen neto y tasa de alcance de metas.
-* **Evolución Trimestral YoY:** Comparativa interanual estacional por trimestres (Q1 a Q4) para 2024, 2025 y 2026.
-* **Distribución Territorial:** Participación por regiones y porcentaje de órdenes que superaron la meta.
-* **Impacto de Descuentos sobre Márgenes:** Evaluación de erosión de margen operativo según tramos de rebaja comercial.
+
+- **Tendencia de Ventas vs. Metas:** evolución mensual con áreas sombreadas de superávit y déficit presupuestario.
+- **Cascada de Rentabilidad:** descomposición del ingreso bruto, descuentos, costo de ventas, gastos operativos y beneficio neto.
+- **Análisis por Canal:** facturación, margen neto y cumplimiento de metas.
+- **Evolución Trimestral YoY:** comparativa interanual por trimestre (Q1–Q4) para 2024, 2025 y 2026.
+- **Distribución Territorial:** participación regional y porcentaje de órdenes que superaron la meta.
+- **Impacto de Descuentos sobre Márgenes:** evaluación de la erosión del margen operativo según los tramos de descuento comercial.
 
 ### 🤖 Dashboard #2: Machine Learning y Segmentación Estratégica
-* **Forecast de Demanda:** Tendencia lineal por mínimos cuadrados ordinarios (OLS) con intervalo de confianza al 95%.
-* **Clustering de Clientes:** Segmentación K-Means no supervisada (Clientes VIP, Margen Equilibrado, Transacciones Estándar).
-* **Variables Impulsoras del Beneficio:** Ponderación estandarizada (*Feature Weights*) de factores operativos sobre el EBITDA.
-* **Detección de Anomalías:** Auditoría estadística multivariable con Z-Scores sobre el ratio de gastos/ingresos.
-* **Curva de Tolerancia al Descuento:** Regresión logística que calcula la frontera exacta de quiebre comercial ($P(\text{Meta}) < 50\%$).
-* **Matriz Prescriptiva:** Mapa de calor de margen operativo cruzando canales de distribución vs. categorías de producto.
+
+- **Forecast de Demanda:** tendencia lineal mediante mínimos cuadrados ordinarios (OLS), con intervalo de confianza del 95%.
+- **Clustering de Clientes:** segmentación no supervisada mediante K-Means (clientes VIP, margen equilibrado y transacciones estándar).
+- **Variables Impulsoras del Beneficio:** ponderación estandarizada (*Feature Weights*) de factores operativos asociados al EBITDA.
+- **Detección de Anomalías:** auditoría estadística multivariable mediante Z-Scores sobre el ratio de gastos e ingresos.
+- **Curva de Tolerancia al Descuento:** regresión logística para estimar la probabilidad de cumplimiento de metas según el descuento aplicado.
+- **Matriz Prescriptiva:** mapa de calor del margen operativo por canal de distribución y categoría de producto.
 
 ### 🌎 Dashboard #3: Business Intelligence Moderno
-* **Bullet Charts:** Seguimiento de metas por canal con rangos cualitativos (deficiente, aceptable, excelente) y marcador de cuota.
-* **Curva de Pareto 80/20:** Identificación de plazas urbanas clave que concentran el 80% de la facturación acumulada.
-* **Dumbbell Charts:** Brecha de crecimiento y contracción interanual (2024 vs. 2026) por canal comercial.
-* **Lollipop Charts:** Ranking de Ticket Promedio (*Average Order Value* - AOV) por municipio.
-* **Violin Plots:** Distribución de densidad de probabilidad y estabilidad del margen operativo por canal.
-* **Índice de Concentración HHI:** Medición del riesgo de concentración territorial mediante el Índice Herfindahl-Hirschman.
+
+- **Bullet Charts:** seguimiento de objetivos por canal, con rangos cualitativos y marcadores de cuota.
+- **Curva de Pareto 80/20:** identificación de las plazas comerciales que concentran el 80% de la facturación acumulada.
+- **Dumbbell Charts:** comparación del crecimiento y la contracción interanual por canal (2024 vs. 2026).
+- **Lollipop Charts:** clasificación del ticket promedio (*Average Order Value — AOV*) por municipio.
+- **Violin Plots:** análisis de la distribución y estabilidad del margen operativo por canal.
+- **Índice de Concentración HHI:** evaluación del riesgo de concentración territorial mediante el índice Herfindahl-Hirschman.
 
 ### 🚀 Dashboard #4: Econometría Predictiva y Analítica Avanzada
-* **Descomposición STL:** Aislamiento de la tendencia central móvil (MA-3) frente a componentes estacionales y residuales.
-* **Simulación Cuantílica Multiescenario:** Proyección de demanda bajo estrés macroeconómico (P10 Pesimista, P50 Base, P90 Optimista).
-* **PCA Biplot 2D:** Reducción de dimensionalidad por descomposición en valores singulares (SVD) para mapear vectores financieros.
-* **Curva ROC y AUC:** Evaluación del clasificador de probabilidad de éxito presupuestario.
-* **Correlaciones de Pearson:** Matriz numérica de interdependencia entre unidades, precios, costos, descuentos e ingresos.
-* **Elasticidad Precio-Demanda:** Regresión logarítmica para determinar la respuesta de la demanda e ingresos ante ajustes de precio base.
+
+- **Descomposición STL:** separación de tendencia, estacionalidad y residuos de la serie temporal.
+- **Simulación Cuantílica Multiescenario:** proyección de demanda bajo escenarios pesimista (P10), base (P50) y optimista (P90).
+- **PCA Biplot 2D:** reducción de dimensionalidad mediante análisis de componentes principales y descomposición en valores singulares (SVD).
+- **Curva ROC y AUC:** evaluación del clasificador de probabilidad de éxito presupuestario.
+- **Correlaciones de Pearson:** análisis de interdependencia entre unidades, precios, costos, descuentos e ingresos.
+- **Elasticidad Precio-Demanda:** regresión logarítmica para estudiar la respuesta de la demanda y los ingresos ante cambios en los precios.
 
 ---
 
-## 📄 Dossier Ejecutivo en PDF (10 Páginas)
+## 📄 Dossier Ejecutivo en PDF — 10 Páginas
 
-El script genera automáticamente un documento corporativo listo para impresión y comités directivos, estructurado de la siguiente forma:
+El proyecto contempla la generación automatizada de un documento corporativo para impresión, presentación y revisión en comités directivos.
 
-1. **Página 1:** Portada ejecutiva, tarjetas de KPIs principales y síntesis metodológica de auditoría.
-2. **Página 2:** Lámina 1 completa en alta resolución (Diagnóstico Financiero).
-3. **Página 3:** Análisis técnico individualizado de los 6 cuadrantes de la Lámina 1 (Métricas, Causas y Decisiones).
-4. **Página 4:** Lámina 2 completa en alta resolución (Machine Learning Clásico).
-5. **Página 5:** Análisis técnico individualizado de los 6 cuadrantes de la Lámina 2.
-6. **Página 6:** Lámina 3 completa en alta resolución (BI Moderno y Concentración).
-7. **Página 7:** Análisis técnico individualizado de los 6 cuadrantes de la Lámina 3.
-8. **Página 8:** Lámina 4 completa en alta resolución (Econometría y Modelos Avanzados).
-9. **Página 9:** Análisis técnico individualizado de los 6 cuadrantes de la Lámina 4.
-10. **Página 10:** Conclusiones finales y **Matriz Prescriptiva de Decisiones** con planes de acción e impactos estimados en EBITDA.
+| Página | Contenido |
+|:---:|---|
+| 1 | Portada ejecutiva, KPIs principales y síntesis metodológica de auditoría. |
+| 2 | Dashboard #1: diagnóstico financiero y comercial. |
+| 3 | Análisis técnico de los seis gráficos del Dashboard #1: métricas, causas y decisiones. |
+| 4 | Dashboard #2: Machine Learning clásico. |
+| 5 | Análisis técnico de los seis gráficos del Dashboard #2. |
+| 6 | Dashboard #3: BI moderno y concentración. |
+| 7 | Análisis técnico de los seis gráficos del Dashboard #3. |
+| 8 | Dashboard #4: econometría y modelos avanzados. |
+| 9 | Análisis técnico de los seis gráficos del Dashboard #4. |
+| 10 | Conclusiones y matriz prescriptiva de decisiones con planes de acción e impactos estimados en EBITDA. |
 
 ---
 
 ## 🛠️ Tecnologías Utilizadas
 
-* **Lenguaje:** Python 3.10+
-* **Manipulación de Datos:** Pandas
-* **Computación Vectorizada y ML:** NumPy (implementaciones vectorizadas de OLS, K-Means, SVD y Regresión Logística)
-* **Visualización y Renderizado:** Matplotlib
-* **Generación Documental:** Matplotlib PDF Backend (`PdfPages`)
-* **Enfoques:** Business Intelligence, Data Analytics, Econometría, Prescriptive Analytics
+| Tecnología | Aplicación |
+|---|---|
+| **Python 3.10+** | Lenguaje principal del proyecto. |
+| **Pandas** | Manipulación, limpieza y estructuración de datos. |
+| **NumPy** | Computación vectorizada e implementaciones numéricas de modelos. |
+| **Matplotlib** | Visualización, composición y renderizado de dashboards. |
+| **PdfPages** | Generación de documentos PDF mediante Matplotlib. |
+
+**Enfoques analíticos:**
+
+- Business Intelligence (BI).
+- Data Analytics.
+- Machine Learning.
+- Econometría.
+- Analítica financiera.
+- Prescriptive Analytics.
+- Automatización de informes ejecutivos.
 
 ---
 
 ## 📂 Estructura del Proyecto
 
 ```text
-📦 Proyecto_BI_ML
+Proyecto_BI_ML/
 │
-├── 📂 datos
-│   └── 📄 Reporte_Transaccional_2024_2026.csv
+├── datos/
+│   └── Reporte_Transaccional_2024_2026.csv
 │
-├── 📂 imagenes
-│   ├── 🖼️ reporte_1_bi_ejecutivo.png
-│   ├── 🖼️ reporte_2_ml_ejecutivo.png
-│   ├── 🖼️ reporte_3_bi_moderno.png
-│   └── 🖼️ reporte_4_ml_econometria.png
+├── imagenes/
+│   ├── reporte_1_bi_ejecutivo.png
+│   ├── reporte_2_ml_ejecutivo.png
+│   ├── reporte_3_bi_moderno.png
+│   └── reporte_4_ml_econometria.png
 │
-├── 📂 reportes
-│   └── 📄 Dossier_Ejecutivo_BI_ML_Completo.pdf
+├── reportes/
+│   └── Dossier_Ejecutivo_BI_ML_Completo.pdf
 │
-├── 🐍 ml_analisis.py
-├── 📜 requirements.txt
-└── 📘 README.md
+├── ml_analisis.py
+├── requirements.txt
+└── README.md
+```
 
-▶️ Ejecución
-1️⃣ Crear entorno virtual
+> **Nota:** esta estructura representa la organización prevista del proyecto. Los nombres de archivos y carpetas deben coincidir con los que realmente existan en el repositorio.
+
+---
+
+## ▶️ Ejecución del Proyecto
+
+Sigue estos pasos desde la carpeta raíz del repositorio.
+
+### 1. Crear el entorno virtual
+
+```bash
 python -m venv .venv
-2️⃣ Activar entorno virtual
-🪟 Windows
+```
+
+### 2. Activar el entorno virtual
+
+**🪟 Windows — CMD o PowerShell**
+
+```powershell
 .venv\Scripts\activate
-🐧 Linux / 🍎 macOS
+```
+
+**🐧 Linux / 🍎 macOS**
+
+```bash
 source .venv/bin/activate
-3️⃣ Instalar dependencias
-pip install -r requirements.txt
-4️⃣ Ejecutar el proyecto
+```
+
+### 3. Instalar las dependencias
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+### 4. Ejecutar el análisis
+
+```bash
 python ml_analisis.py
-📁 Salidas Generadas
-Al finalizar el proceso se crearán automáticamente:
+```
 
-✅ Dashboard Ejecutivo #1
-✅ Dashboard Ejecutivo #2
-✅ Dashboard Ejecutivo #3
-✅ Dashboard Ejecutivo #4
-✅ Dossier Ejecutivo PDF
-💡 Caso de Uso
-Este proyecto demuestra cómo una organización puede evolucionar desde simples reportes operativos hacia una plataforma de análisis estratégico capaz de respaldar decisiones de nivel:
+### ⚠️ Requisitos previos
 
-👨‍💼 CEO
-💰 CFO
-📈 COO
-🏢 Directores de Negocio
-📊 Equipos de BI y Data Analytics
-🚀 Conclusión
+Antes de ejecutar el proyecto, verifica que:
+
+- Tienes instalado Python 3.10 o una versión compatible.
+- El archivo `requirements.txt` contiene las dependencias necesarias.
+- El archivo CSV de entrada está disponible en la ruta esperada por el script.
+- Las carpetas de salida existen o el programa está preparado para crearlas automáticamente.
+
+---
+
+## 📁 Salidas Generadas
+
+Al finalizar el proceso, se esperan los siguientes entregables:
+
+- ✅ **Dashboard Ejecutivo #1:** diagnóstico financiero y comercial.
+- ✅ **Dashboard Ejecutivo #2:** Machine Learning y segmentación estratégica.
+- ✅ **Dashboard Ejecutivo #3:** Business Intelligence moderno.
+- ✅ **Dashboard Ejecutivo #4:** econometría predictiva y analítica avanzada.
+- ✅ **Dossier Ejecutivo PDF:** informe consolidado para la toma de decisiones.
+
+Los archivos se guardarán en las ubicaciones definidas por la configuración del proyecto.
+
+---
+
+## 💼 Caso de Uso
+
+La solución demuestra cómo una organización puede evolucionar desde reportes operativos tradicionales hacia una plataforma de análisis estratégico que respalde decisiones basadas en datos.
+
+Está orientada a los siguientes perfiles:
+
+- 👨‍💼 **CEO:** dirección estratégica y visión integral del negocio.
+- 💰 **CFO:** rentabilidad, costos, márgenes y planificación financiera.
+- 📈 **COO:** eficiencia operativa y seguimiento del desempeño.
+- 🏢 **Directores de Negocio:** evaluación comercial y oportunidades de crecimiento.
+- 📊 **Equipos de BI y Data Analytics:** análisis, visualización e interpretación de indicadores.
+
+### 🎯 Valor empresarial
+
+La combinación de indicadores históricos, segmentación, modelos predictivos y análisis de escenarios permite explorar preguntas como:
+
+- ¿Qué canales comerciales generan mejores márgenes?
+- ¿Dónde se concentra el riesgo financiero o territorial?
+- ¿Qué descuentos pueden comprometer la rentabilidad?
+- ¿Qué tendencias podrían orientar la planificación futura?
+- ¿Qué acciones conviene priorizar para mejorar los resultados?
+
+Los modelos proporcionan estimaciones y señales para apoyar el criterio directivo; sus conclusiones deben validarse con los datos y las condiciones reales del negocio.
+
+---
+
+## 🚀 Conclusión
+
 Los datos por sí solos no generan valor.
 
-El verdadero valor surge cuando se transforman en conocimiento, contexto y decisiones estratégicas.
+El verdadero valor surge cuando se transforman en **conocimiento, contexto y decisiones estratégicas**.
 
-Esta solución demuestra cómo combinar Business Intelligence, Machine Learning, Analítica Financiera y Automatización Documental para convertir información transaccional en una ventaja competitiva sostenible.
+Esta solución integra **Business Intelligence, Machine Learning, analítica financiera y automatización documental** para convertir información transaccional en conocimiento accionable y contribuir a una ventaja competitiva sostenible.
 
-⭐ Si este proyecto te resulta útil, considera darle una estrella al repositorio.
+El objetivo no es únicamente visualizar lo que ocurrió, sino también identificar patrones, evaluar escenarios y aportar información útil para decidir qué hacer a continuación.
 
-📢 Tecnologías y Temáticas
-Python DataScience MachineLearning BusinessIntelligence Analytics DataAnalytics BI ArtificialIntelligence ExecutiveReporting DataEngineering
+⭐ **¿Te resulta útil este proyecto?** Considera darle una estrella al repositorio y compartirlo con la comunidad.
+
+---
+
+## 📢 Tecnologías y Temáticas
+
+`Python` · `DataScience` · `MachineLearning` · `BusinessIntelligence` · `Analytics` · `DataAnalytics` · `BI` · `ArtificialIntelligence` · `ExecutiveReporting` · `DataEngineering` · `FinancialAnalytics` · `PredictiveAnalytics` · `Econometrics`
+
+---
+
+**Desarrollado con Python para transformar datos en inteligencia estratégica.**
